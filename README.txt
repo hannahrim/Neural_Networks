@@ -1,7 +1,6 @@
 How many neurons and layers did you select for your neural network model? Why?
 For the input layer, I added the number of input features equal to the number of variables in the feature DataFrame.
-In the hidden layers I added two hidden layers with only a few neurons in each layer. I added another Keras Dense class while defining our model for our second hidden layer.
-All of our hidden layers will use the relu activation function to identify nonlinear characteristics from the input values.
+In the hidden layers I added two hidden layers with only a few neurons in each layer. I added another Keras Dense class while defining our model for our second hidden layer. All of our hidden layers will use the relu activation function to identify nonlinear characteristics from the input values.
 In the output layer, I used the same parameters from our basic neural network including the sigmoid activation function. 
 The sigmoid activation function will help us predict whether or not an applicant will be successful if funded by Alphabet Soup.
 
